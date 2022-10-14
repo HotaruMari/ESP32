@@ -7,13 +7,11 @@ def do_connect():
     wlan.active(True)   # activate the interface
     if not wlan.isconnected(): #if station interface conect with a new one
         print('connecting to network...')
-        wlan.connect('ssid', 'key')  # connect to an AP
+        wlan.connect('Marisenal', 'Mariesgenial')  # connect to an AP
         while not wlan.isconnected(): #waiting conection
             pass
     print('network config:', wlan.ifconfig()) # get the interface's IP/netmask/gw/DNS addresses
-
+print('Starting connection')
 do_connect()
-ap = network.WLAN(network.AP_IF) # create access-point interface
-ap.config(ssid='ESP-AP') # set the SSID of the access point
-ap.config(max_clients=10) # set how many clients can connect to the network
-ap.active(True)         # activate the interface
+print('Connected')
+
