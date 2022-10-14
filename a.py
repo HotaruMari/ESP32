@@ -11,4 +11,4 @@ def toggle(max):
         led.value(0)
         slms(800)
         lap += 1
-toggle(10)
+toggle(25)
