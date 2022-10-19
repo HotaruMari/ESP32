@@ -7,7 +7,7 @@ def do_connect():
     wlan.active(True)   # activate the interface
     if not wlan.isconnected(): #if station interface conect with a new one
         print('connecting to network...')
-        wlan.connect('Marisenal', 'Mariesgenial')  # connect to an AP
+        wlan.connect('Marisenal', 'Mariesgenial')  # connect to an AP ('ssid', 'key')
         while not wlan.isconnected(): #waiting conection
             pass
     print('network config:', wlan.ifconfig()) # get the interface's IP/netmask/gw/DNS addresses
