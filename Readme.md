@@ -6,3 +6,6 @@ En este repositorio serán colocados los documentos que desarrolle para el apren
 - Se desarrolló el documento de Wificonection que hace que la ESP32 se conecte a internet
 
 - Se desarrolló el documento de DescargaWIFI que hace que la ESP32 descargue un documento de internet 
+
+
+Hola, ya puedo editar
