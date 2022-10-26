@@ -1,4 +1,4 @@
-# Probando ando para aprender
+# ESP32
 En este repositorio serán colocados los documentos que desarrolle para el aprendizaje de la ESP32
 
 - Se desarrolló el documento de blink que hace parpadear un led en el Pin 2.
