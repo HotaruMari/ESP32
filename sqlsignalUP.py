@@ -42,3 +42,5 @@ if(cred['DB']):
 	
 execute('insert into signalmari(CH1) values (153);')
 db.commit()
+
+print('Sisepudoburrooooo')
